@@ -1,9 +1,13 @@
-#include <unistd.h>
+#include <main.h>
 
 /**
- *_putchar - function that prints _putchar
- * Return: returns 0;
+ *_putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
+
 int main(void)
 {
 	_Putchar('_');
