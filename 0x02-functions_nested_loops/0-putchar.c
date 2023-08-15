@@ -1,9 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - print _putchar
- * is written by baby1938
- * Return: 0
+ * 
+ * Return: always 0
  */
 
 int main(void)
